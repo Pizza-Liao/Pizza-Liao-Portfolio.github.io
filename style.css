@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+/* 基本設置 */
+html,
+body {
+  margin: 0px;
+  font-family: "Roboto", "Noto Sans TC", sans-serif;
+  background-color: #fcf9ee;
+}
+h1 {
+  font-size: 32px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  min-width: 300px;
+}
+
+h2 {
+  margin-bottom: 0px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #999999;
+  margin: 20px 0px;
+}
+
+hr.big-div {
+  height: 4px;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 頭頂 */
+header {
+  background-color: #ffd06b;
+}
+
+var {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto 10px;
+  padding: 0px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.var-name {
+  color: black;
+}
+
+.click-heart {
+  display: inline-block;
+}
+
+#heart {
+  width: 20px;
+}
+
+#heart:hover {
+  cursor: pointer;
+}
+
+button.heart-click {
+  background: #ffd06b;
+  border: none;
+}
+
+/* 主內容 */
+
+main {
+  max-width: 1000px;
+  margin: 50px auto 0;
+}
+
+/* LINE旅遊 */
+/* 內容推播 */
+.content-push-box {
+  display: flex;
+}
+
+.content-push {
+  width: 50%;
+  margin-right: 40px;
+}
+
+.oap {
+  width: 100%;
+}
+
+/* 內容維護  */
+.content-contain-box {
+  display: flex;
+}
+
+.content-contain {
+  width: 50%;
+  margin-right: 40px;
+}
+
+.article {
+  width: 100%;
+}
+
+/* 基金會 */
+
+/* Podcast */
+
+.podcast-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+button {
+  border: none;
+  background-color: #fcf9ee;
+}
+
+.fa-pizza-slice {
+  font-size: 40px;
+  transform: rotate(45deg);
+}
+
+.change-picture-right .fa-pizza-slice {
+  font-size: 40px;
+  transform: rotate(225deg);
+}
+
+.change-picture:hover {
+  cursor: pointer;
+}
+
+.change-picture-right:hover {
+  cursor: pointer;
+}
+
+.fa-pizza-slice:hover {
+  color: #f5aa0a;
+}
+
+/* 結案報告 */
+
+.picture-box {
+  text-align: center;
+}
+
+.report {
+  width: 100%;
+}
+
+/* 文宣品 */
+
+.job-meetup {
+  display: flex;
+}
+
+.job-meetup-content {
+  margin: 20px 40px 20px 0px;
+}
+
+/* 影片 */
+
+.video-boxs {
+  display: flex;
+  align-items: center;
+}
+.video-box {
+  margin: 20px 30px 20px 0px;
+}
+
+.video-10th {
+  width: 100%;
+}
+
+.video-10th:hover {
+  opacity: 0.5;
+  /*   content : "北大經濟研習營10th" ; */
+}
+
+.video-win {
+  width: 100%;
+}
+
+.video-win:hover {
+  opacity: 0.5;
+  /*   content : "亞青盃" ; */
+}
