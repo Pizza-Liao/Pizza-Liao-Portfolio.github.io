@@ -194,3 +194,55 @@ button {
   opacity: 0.5;
   /*   content : "亞青盃" ; */
 }
+
+/* 尾巴區 */
+footer {
+  margin-top: 50px;
+  text-align: center;
+  background-color: #666666;
+}
+
+.footer-text {
+  font-weight: normal;
+}
+
+section.bottom {
+  display: flex;
+  width: 1000px;
+  font-size: 25px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media {
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 10px;
+  color: #ffa1ff;
+}
+
+.social-media:hover {
+  color: white;
+}
+
+.footer-text {
+  margin-bottom: 2px;
+  margin-right: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.social-media-cel {
+  margin-left: 15px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.my-phone {
+  font-size: 15px;
+  display: block;
+  color: white;
+  font-weight: normal;
+}
+
