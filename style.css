@@ -177,7 +177,11 @@ button {
 .instagram-box {
   display : flex ;
   align-items : center ;
-  
+}
+
+.instagram-words {
+  width : 50% ;
+  margin-right : 30px ;
 }
 
 /* 影片 */
